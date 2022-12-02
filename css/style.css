@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.justify-center{
+    justify-content: center;
+}
+.my-b{
+    color: #31a8ee;
+    margin-left: -8vw;
+    margin-bottom:8px;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+}
+.container{
+    max-width: 80vw;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    height:13vh;
+    background-color: #393939;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+}
+.list li{
+    list-style: none;
+    padding: 0px 25px;
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+.join{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    background-color:rgb(23, 167, 252);
+    border: 0px;
+    border-radius: 10px;
+    height: 5vh;
+    width: 5vw;
+    align-self: center;
+}
+.join:hover{
+    color: #dbd3d3;
+}
+.list li a:hover{
+    color: #dbd3d3;
+    text-decoration: underline;
+}
+.navbar img{
+    width: 130px;
+    height: 100px;
+    filter: invert(44%) sepia(50%) saturate(3913%) hue-rotate(180deg) brightness(107%) contrast(98%);
+}
+.title{
+    color: rgb(23, 167, 252);
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: solid;
+    cursor: default;
+    margin-left: -17vw;
+}
+
+.topLeft{
+    margin:13px 0px;
+    padding: 12px 0px;
+    flex-direction: column;
+    max-width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+.topLeft img{
+    width: 130px;
+    height: 85px;
+}
+.topRight{
+    margin:13px 0px;
+    padding: 12px 0px;
+    flex-direction: column;
+    max-width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.topRight img{
+    height: 240px;
+    width: 250px;
+    margin-left: 6vw;
+}
+
+
+/* //section2 */
+
+.price{
+    color: #31a8ee;
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+}
+.price p{
+    margin: 0px 20px;
+}
+
+.box{
+    border-radius: 8px;
+    height:40vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 13vw;
+    margin: 4vh 3vw;
+    border: 2px solid rgb(23, 167, 252);
+}
+.box ul{
+    margin-bottom: 2vh;
+}
+.box ul li{
+    list-style: none;
+    padding: 2px 0px;
+}
+.box h2{
+    margin-bottom:2vh;
+}
+.box ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    padding: 10px 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #393939;
+    color: white;
+}
